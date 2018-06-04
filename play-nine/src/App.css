@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-section div {
+ float: left;
+}
+.buttons-column{
+ 
+  margin: 3px auto;
+}
+
+.buttons-column button{
+  display: block;
+  margin: 3px auto;
+}
+
+.mountNode {
+  color: #333;
+}
+
+.buttons{
+  margin: 0 auto;
+}
+
+.buttons button{
+  margin-left: 5px;
+}
+
+.answers-section{
+  margin: 0 auto;
+}
+
+
+.fa-star{
+  margin: 0.5em;
+  font-size: 24px;
+  color: #FFD700;
+}
+
+span{
+  display: inline-block;
+  margin: .5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+
+.selected{
+  background-color: #eee;
+  color: #ddd;
+  cursor: not-allowed;
+}
+.used{
+  background-color: #aaddaa;
+  color: #99bb99;
+  cursor: not-allowed;  
+}
+
+  
+  
+  
+  
+  
