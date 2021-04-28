@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/play-nine"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: underscore
+    versions:
+    - 1.12.0
+    - 1.12.1
+    - 1.13.0
+  - dependency-name: react-scripts
+    versions:
+    - 4.0.1
+    - 4.0.2
